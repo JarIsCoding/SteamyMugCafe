@@ -1,0 +1,36 @@
+/* 
+Colors -
+
+SteamyMugColor
+#FFF0C8
+
+BgColor
+#BA9A73
+
+FooterColor
+#88653A
+
+ */
+
+@font-face {
+    font-family: Leck;
+    src: url(/fonts/Leckerli_One/LeckerliOne-Regular.ttf);
+}
+
+.bgColor{
+    background-color: #BA9A73;
+}
+
+.navcolor{
+    background-color: rgba(255, 255, 255, .15);
+    z-index: -1;
+}
+
+.text{
+    color: #fff0c8;
+}
+
+.twntf{
+    font-size: 25px;
+    font-family: Leck;
+}
