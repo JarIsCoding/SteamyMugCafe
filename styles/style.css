@@ -26,6 +26,10 @@ FooterColor
     z-index: -1;
 }
 
+.footcolor{
+    background-color: #88653A;
+}
+
 .text{
     color: #fff0c8;
 }
@@ -33,4 +37,63 @@ FooterColor
 .twntf{
     font-size: 25px;
     font-family: Leck;
+}
+
+.tf{
+    font-size: 35px;
+    font-family: Leck;
+}
+
+.white{
+    color: white;
+}
+
+.heroimg{
+    background-image: url(/assets/SMCheroimg.png);
+    height: 54vh;
+    background-repeat: no-repeat;
+}
+
+.fourtf{
+    font-size: 45px;
+    font-family: Leck;
+    color: white;
+}
+
+.herotxt{
+    font-size: 100px;
+    color:  #FFF0C8;
+    font-family: Leck;
+    text-shadow: 2px 4px 4px rgba(0,0,0,0.6);
+}
+
+.latte{
+    height: 40vh;
+}
+
+.hotcold{
+    width: 350px;
+    height: 350px;
+    font-family: Leck;
+    font-size: 35px;
+}
+
+.temptxt{
+    padding-bottom: 225px;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+.annoyingbanner{
+    position: relative;
+    width: 130px;
+}
+
+.boxshadow{
+    box-shadow: 2px 4px 4px rgba(0,0,0,0.6);
 }
