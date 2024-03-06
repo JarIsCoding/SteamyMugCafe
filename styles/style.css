@@ -32,6 +32,7 @@ FooterColor
 
 .text{
     color: #fff0c8;
+    font-family: Leck;
 }
 
 .twntf{
@@ -46,10 +47,11 @@ FooterColor
 
 .white{
     color: white;
+    font-family: Leck;
 }
 
 .heroimg{
-    background-image: url(/assets/SMCheroimg.png);
+    background-image: url(/assets/smcherobg.png);
     height: 54vh;
     background-repeat: no-repeat;
 }
@@ -96,4 +98,12 @@ FooterColor
 
 .boxshadow{
     box-shadow: 2px 4px 4px rgba(0,0,0,0.6);
+}
+
+.nolink{
+    text-decoration: none;
+}
+
+.fd{
+    font-size: 50px;
 }
