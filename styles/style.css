@@ -34,3 +34,32 @@ FooterColor
     font-size: 25px;
     font-family: Leck;
 }
+
+.heroimg{
+    background-image: url(/assets/SMCheroimg2.png);
+    height: 54vh;
+    background-repeat: no-repeat;
+}
+
+.fourtf{
+    font-size: 45px;
+    font-family: Leck;
+    color: white;
+}
+
+.herotxt{
+    font-size: 100px;
+    color:  #FFF0C8;
+    font-family: Leck;
+}
+
+.latte{
+    height: 40vh;
+}
+
+.hotcold{
+    width: 350px;
+    height: 350px;
+    font-family: Leck;
+    font-size: 35px;
+}
