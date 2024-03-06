@@ -17,70 +17,70 @@ FooterColor
     src: url(/fonts/Leckerli_One/LeckerliOne-Regular.ttf);
 }
 
-.bgColor{
+.bgColor {
     background-color: #BA9A73;
 }
 
-.navcolor{
+.navcolor {
     background-color: rgba(255, 255, 255, .15);
     z-index: -1;
 }
 
-.footcolor{
+.footcolor {
     background-color: #88653A;
 }
 
-.text{
+.text {
     color: #fff0c8;
     font-family: Leck;
 }
 
-.twntf{
+.twntf {
     font-size: 25px;
     font-family: Leck;
 }
 
-.tf{
+.tf {
     font-size: 35px;
     font-family: Leck;
 }
 
-.white{
+.white {
     color: white;
     font-family: Leck;
 }
 
-.heroimg{
+.heroimg {
     background-image: url(/assets/smcherobg.png);
     height: 54vh;
     background-repeat: no-repeat;
 }
 
-.fourtf{
+.fourtf {
     font-size: 45px;
     font-family: Leck;
     color: white;
 }
 
-.herotxt{
+.herotxt {
     font-size: 100px;
-    color:  #FFF0C8;
+    color: #FFF0C8;
     font-family: Leck;
-    text-shadow: 2px 4px 4px rgba(0,0,0,0.6);
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
 }
 
-.latte{
+.latte {
     height: 40vh;
 }
 
-.hotcold{
+.hotcold {
     width: 350px;
     height: 350px;
     font-family: Leck;
     font-size: 35px;
 }
 
-.temptxt{
+.temptxt {
     padding-bottom: 225px;
 }
 
@@ -89,21 +89,42 @@ FooterColor
     position: sticky;
     top: 0;
     z-index: 1000;
-  }
+}
 
-.annoyingbanner{
+.annoyingbanner {
     position: relative;
     width: 130px;
 }
 
-.boxshadow{
-    box-shadow: 2px 4px 4px rgba(0,0,0,0.6);
+.boxshadow {
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, .15);
 }
 
-.nolink{
+.nolink {
     text-decoration: none;
 }
 
-.fd{
+.fd {
     font-size: 50px;
+}
+
+.hotbtnhover:hover {
+    animation: hot 2s linear alternate infinite;
+}
+
+@keyframes hot {
+    0% { border-color: red; }
+    50% { border-color: orange; }
+    100% { border-color: yellow; }
+}
+
+.coldbtnhover:hover {
+    animation: cold 2s linear alternate infinite;
+}
+
+@keyframes cold {
+    0% { border-color: blue; }
+    50% { border-color: skyblue; }
+    100% { border-color: azure }
 }
