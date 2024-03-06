@@ -17,6 +17,10 @@ FooterColor
     src: url(/fonts/Leckerli_One/LeckerliOne-Regular.ttf);
 }
 
+.font{
+    font-family: Leck;
+}
+
 .bgColor {
     background-color: #BA9A73;
 }
@@ -98,7 +102,7 @@ FooterColor
 
 .boxshadow {
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
-    background-color: rgba(255, 255, 255, .15);
+    background-color: rgba(255, 255, 255, .5);
 }
 
 .nolink {
@@ -127,4 +131,28 @@ FooterColor
     0% { border-color: blue; }
     50% { border-color: skyblue; }
     100% { border-color: azure }
+}
+
+.coffeeBg{
+    background-color: white;
+}
+
+.coffee1Margin{
+    margin-left: 85px;
+    margin-right: 100px;
+}
+
+.coffee2Margin{
+    margin-left: 100px;
+    margin-right: 85px;
+}
+
+.thir{
+    font-size: 30px;
+    font-family: Leck;
+}
+
+.twenty{
+    font-size: 20px;
+    font-family: Leck;
 }
